@@ -8,7 +8,7 @@ def app():
     st.markdown(
         """
         # TREE PACT KENYA
-        ## A GIS-based Approach towards identifying areas to plant trees, Planning & Implementation of planting exercise and Tree Growth Monitoring. 
+        A GIS-based Approach towards identifying areas to plant trees, Planning & Implementation of planting exercise and Tree Growth Monitoring. 
     """
     )
 
