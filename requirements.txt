@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+--find-links=https://girder.github.io/large_image_wheels GDAL
+geemap
+geopandas
+jupyter-server-proxy
+keplergl
+leafmap
+localtileserver
+nbserverproxy
+streamlit
+streamlit-option-menu
+
+=======
+=======
+>>>>>>> 2d7af57 (TREE PACT KENYA)
+--find-links=https://girder.github.io/large_image_wheels GDAL
+geemap
+geopandas
+jupyter-server-proxy
+keplergl
+leafmap
+localtileserver
+nbserverproxy
+streamlit
+streamlit-option-menu
+
+<<<<<<< HEAD
+>>>>>>> 2d7af57 (TREE PACT KENYA)
+=======
+>>>>>>> 2d7af57 (TREE PACT KENYA)

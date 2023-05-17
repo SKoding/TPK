@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+ffmpeg
+gifsicle
+build-essential
+python3-dev
+gdal-bin
+=======
+=======
+>>>>>>> 2d7af57 (TREE PACT KENYA)
+ffmpeg
+gifsicle
+build-essential
+python3-dev
+gdal-bin
+<<<<<<< HEAD
+>>>>>>> 2d7af57 (TREE PACT KENYA)
+=======
+>>>>>>> 2d7af57 (TREE PACT KENYA)
+libgdal-dev
