@@ -1,32 +1,14 @@
 import streamlit as st
+import ee
+import geemap.foliumap as geemap
 
 
 def app():
-    st.title("Home")
-
-    st.header("Tree Pact Kenya.")
-    st.markdown(
-        """
-    # SRTM
-    """
-    )
-
-    # with st.expander("Where to find your Earth Engine token?"):
-    #     st.markdown(
-    #         """
-    #         - **Windows:** `C:/Users/USERNAME/.config/earthengine/credentials`
-    #         - **Linux:** `/home/USERNAME/.config/earthengine/credentials`
-    #         - **macOS:** `/Users/USERNAME/.config/earthengine/credentials`
-    #         """
-    #     )
-    # Import libraries
-    import ee
-    import geemap.foliumap as geemap
-
+    st.title("Tree Pact Kenya.")
     # Create an interactive map
     Map = geemap.Map(center=[0, 36], zoom=4,plugin_Draw=True, Draw_export=False)
     # Add a basemap
-    Map.add_basemap("TERRAIN")
+    Map.add_basemap("HYBRID")
     # Retrieve Earth Engine dataset
     dem = ee.Image("USGS/SRTMGL1_003")
     # Set visualization parameters
