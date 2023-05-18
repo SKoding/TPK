@@ -1,7 +1,7 @@
 --find-links=https://girder.github.io/large_image_wheels GDAL
 geemap
+earthengine-api==0.1.322
 geopandas
-json
 folium
 jupyter-server-proxy
 keplergl
