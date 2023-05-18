@@ -1,6 +1,8 @@
 --find-links=https://girder.github.io/large_image_wheels GDAL
 geemap
 geopandas
+json
+folium
 jupyter-server-proxy
 keplergl
 leafmap
