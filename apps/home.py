@@ -11,7 +11,8 @@ def app():
         A GIS-based Approach towards identifying areas to plant trees, Planning & Implementation of planting exercise and Tree Growth Monitoring. 
     """
     )
+    kenya = [0,36]
 
-    m = leafmap.Map(locate_control=True)
+    m = leafmap.Map(center = kenya, zoom = 10, locate_control=True)
     m.add_basemap("ROADMAP")
     m.to_streamlit(height=700)
