@@ -3,8 +3,6 @@ import leafmap.foliumap as leafmap
 
 
 def app():
-    st.title("Home")
-
     st.markdown(
         """
         # TREE PACT KENYA

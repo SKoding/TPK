@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from apps import home, trees, upload  # import your app modules here
+from apps import home, trees, upload, timeSeries  # import your app modules here
 
 st.set_page_config(page_title="Tree Pact Kenya", layout="wide")
 
@@ -10,6 +10,7 @@ st.set_page_config(page_title="Tree Pact Kenya", layout="wide")
 apps = [
     {"func": home.app, "title": "Home", "icon": "house"},
     {"func": trees.app, "title": "Trees", "icon": "map"},
+    {"func": timeSeries.app, "title": "Time Series", "icon": "cloud-upload"},
     {"func": upload.app, "title": "Upload", "icon": "cloud-upload"},
 ]
 
