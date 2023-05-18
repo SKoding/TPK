@@ -10,7 +10,7 @@ st.set_page_config(page_title="Tree Pact Kenya", layout="wide")
 apps = [
     {"func": home.app, "title": "Home", "icon": "house"},
     {"func": trees.app, "title": "Trees", "icon": "map"},
-    {"func": timeSeries.app, "title": "Time Series", "icon": "cloud-upload"},
+    # {"func": timeSeries.app, "title": "Time Series", "icon": "cloud-upload"},
     {"func": upload.app, "title": "Upload", "icon": "cloud-upload"},
 ]
 

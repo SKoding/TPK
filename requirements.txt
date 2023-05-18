@@ -7,9 +7,9 @@ nbserverproxy
 streamlit-option-menu
 earthengine-api
 ee
-Fiona==1.8.21
-folium==0.12.1.post1
-geojson==2.5.0
+Fiona
+folium
+geojson
 geopandas
 streamlit
 streamlit-folium
