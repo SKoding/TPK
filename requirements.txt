@@ -6,6 +6,7 @@ folium
 jupyter-server-proxy
 keplergl
 leafmap
+streamlit-folium
 localtileserver
 nbserverproxy
 streamlit
