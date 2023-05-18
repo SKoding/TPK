@@ -67,7 +67,7 @@ def app():
     basemaps['Google Satellite Hybrid'].add_to(my_map)
     #Map.add_basemap("HYBRID")
     # Retrieve Earth Engine dataset
-    dem = ee.Image("USGS/SRTMGL1_003")
+    #dem = ee.Image("USGS/SRTMGL1_003")
     # Set visualization parameters
     vis_params = {
         "min": 0,
